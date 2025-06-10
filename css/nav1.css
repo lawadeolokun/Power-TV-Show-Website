@@ -1,0 +1,42 @@
+.nav1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav1 li {
+    float: left;
+}
+
+.nav1 a:link, .nav1 a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:2px solid lightblue;
+}
+
+.nav1 a:hover, .nav1 a:active {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.nav1{
+    margin: auto;
+	width:400px;
+}
+
+.navbackground{
+    background-color: silver
+}
+
+.nav1 li a.active{
+    background-color: red;
+}

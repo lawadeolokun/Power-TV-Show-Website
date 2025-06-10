@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    border: 3px solid darkgreen;
+}
+
+.box1{
+    flex: 1;
+    border: 3px solid darkgreen;
+    padding: 1rem;
+    background-color: lightpink;
+    text-align: center;
+}
+
+.box2{
+    flex: 3;
+    border: 3px solid darkgreen;
+    padding: 5rem;
+    background-color: lightgray;
+}
+.box3{
+    flex: 1;
+    border: 3px solid darkgreen;
+    padding: 5rem;
+    background-color: darkgray;
+}
+
+header{
+    background-color: skyblue;
+}
+
+hr{
+    height:  5px;
+    background: black;
+}
+
+footer{
+    background-color: lightgreen;
+    border: 3px solid darkgreen;
+    padding: 1rem
+}
+
+#links{
+    text-align: right;
+}
+
+.website a:link, a:visited, a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+h2{
+    text-align: center;
+    border: 4px solid black;
+    background-color: beige
+}
+
+.sitemap a:link, a:visited, a:hover{
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .navbackground {width:8.33;}
+    .nav1 {width:8.33;}
+    .container {width:8.33;}
+    .box1 {width:8.33;}
+    .nav2 {width:8.33;}
+    .box2 {width:8.33;}
+    .website {width:8.33;}
+    .box3 {width:8.33;}
+}
+
+@media only screen and (min-width: 768px) {
+    .navbackground {width:8.33;}
+    .nav1 {width:8.33;}
+    .container {width:8.33;}
+    .box1 {width:8.33;}
+    .nav2 {width:8.33;}
+    .box2 {width:8.33;}
+    .website {width:8.33;}
+    .box3 {width:8.33;}
+    
